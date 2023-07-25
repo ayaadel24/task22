@@ -1,0 +1,75 @@
+* 
+{
+    box-sizing: border-box; 
+    margin: 0;
+    font-family: 'Edu SA Beginner', cursive;
+} 
+:root
+{
+    --primary-color:#fff;
+    --dark-color:#000;
+    --third-color:#a2bde6;
+
+}
+
+body 
+{
+background-color :var(--primary-color);
+display: flex; 
+align-items: center; 
+Justify-content:center ; 
+overflow:hidden ; 
+Height: 100vh ;
+} 
+
+.quizapp
+{
+background-color :var(--primary-color);
+Width:600px ;
+box-shadow: 0 0 10px 5px #a2bde6 ; 
+border-radius: 15px;
+Overflow:hidden;
+} 
+
+h2
+{
+text-align: center;
+padding: 1rem;
+} 
+
+ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li
+{
+   margin: 1.5rem 0;
+   font-size: medium;
+}
+
+Ul li label 
+{ 
+    cursor: pointer
+} 
+
+button 
+{ 
+background-color:var(--third-color);
+border-radius: 10px;
+border: none;
+display: block ; 
+Width:100%;
+padding:1.3rem;
+color:var(--dark-color);
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+} 
+button:hover
+{
+    background-color:#fff;
+    border: 2px solid #a2bde6;
+    
+}
